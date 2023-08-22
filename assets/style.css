@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 10px;
+}
+
+body{
+    background-color: rgba(211, 211, 211, 0.288);
+}
+
+/* NAVEGAÇÃO */
+
+header{
+    text-align: center;
+    background-color: #ffc300;
+    height: 140px;
+}
+
+h1{padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 2.5em;
+}
+
+h1 label{
+    color: #434134;
+}
+
+header nav{
+    margin-top: 30px;
+}
+
+header nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+header nav a:hover{
+    color: #ffc300;
+    background-color: white;
+}
+
+/* MAIN */
+
+main{
+    margin: 8px auto;
+    width: 70%;
+    height: 40vw;
+}
+
+#secum{
+    float: left;
+    padding: 10px;
+    background-color: white;
+    width: 690px;
+}
+
+#txtsecum{
+    padding: 6px;
+    text-align: justify;
+}
+
+#secum h2{
+    color: #ffc300;
+}
+
+#secdois{
+    background-color: white;
+    float: right;
+    margin-top: 3px;
+    margin-right: 40px;
+    padding: 10px;
+    width: 300px;
+}
+
+#secdois p{
+    margin-top: 3px;
+}
+
+#secdois label{
+    color: #ffc300;
+}
+
+#secdois h3, #sectres h3{
+    padding: 3px;
+    color: rgb(45, 45, 45);
+    background-color: darkgray;
+}
+
+#sectres{
+    background-color: white;
+    float: right;
+    margin-top: 30px;
+    margin-right: 40px;
+    padding: 10px;
+    width: 300px;
+}
+
+#sectres a{
+    margin: 1px;
+    display: block;
+    text-decoration: none;
+    padding: 2px;
+    color: #ffc300;
+}
